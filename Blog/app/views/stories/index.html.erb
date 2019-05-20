@@ -1,0 +1,9 @@
+<h1>My Blog</h1>
+<%= link_to "create new blog", new_story_path %>
+<% @stories.each do |story| %>
+
+    <h3> <%= link_to story.blog %> </h3>
+    
+
+
+<% end %>

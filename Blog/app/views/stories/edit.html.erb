@@ -1,0 +1,5 @@
+<h1> Add your blog</h1>
+<%= form_for @story, url: {action: "update"} do |f| %>
+    <%= f.text_field :blog %>
+    <%= f.submit "Save" %>
+    <% end %>
